@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/NPV.cpp" "C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/cmake-build-debug/CMakeFiles/Praktikum_1_PAD2.dir/NPV.cpp.obj"
   "C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/main.cpp" "C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/cmake-build-debug/CMakeFiles/Praktikum_1_PAD2.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

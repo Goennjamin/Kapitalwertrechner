@@ -128,6 +128,30 @@ Praktikum_1_PAD2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum_1_PAD2.dir\build.make CMakeFiles/Praktikum_1_PAD2.dir/build
 .PHONY : Praktikum_1_PAD2/fast
 
+NPV.obj: NPV.cpp.obj
+.PHONY : NPV.obj
+
+# target to build an object file
+NPV.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum_1_PAD2.dir\build.make CMakeFiles/Praktikum_1_PAD2.dir/NPV.cpp.obj
+.PHONY : NPV.cpp.obj
+
+NPV.i: NPV.cpp.i
+.PHONY : NPV.i
+
+# target to preprocess a source file
+NPV.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum_1_PAD2.dir\build.make CMakeFiles/Praktikum_1_PAD2.dir/NPV.cpp.i
+.PHONY : NPV.cpp.i
+
+NPV.s: NPV.cpp.s
+.PHONY : NPV.s
+
+# target to generate assembly for a file
+NPV.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Praktikum_1_PAD2.dir\build.make CMakeFiles/Praktikum_1_PAD2.dir/NPV.cpp.s
+.PHONY : NPV.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Praktikum_1_PAD2
+	@echo ... NPV.obj
+	@echo ... NPV.i
+	@echo ... NPV.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

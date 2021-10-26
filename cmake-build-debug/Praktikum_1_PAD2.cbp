@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/NPV.cpp">
+			<Option target="Praktikum_1_PAD2"/>
+		</Unit>
+		<Unit filename="C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/NPV.h">
+			<Option target="Praktikum_1_PAD2"/>
+		</Unit>
 		<Unit filename="C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/main.cpp">
 			<Option target="Praktikum_1_PAD2"/>
 		</Unit>

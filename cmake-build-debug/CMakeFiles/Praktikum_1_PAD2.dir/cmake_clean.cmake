@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Praktikum_1_PAD2.dir/NPV.cpp.obj"
   "CMakeFiles/Praktikum_1_PAD2.dir/main.cpp.obj"
   "Praktikum_1_PAD2.exe"
   "Praktikum_1_PAD2.exe.manifest"
