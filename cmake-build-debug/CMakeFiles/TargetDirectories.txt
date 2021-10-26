@@ -1,0 +1,3 @@
+C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/cmake-build-debug/CMakeFiles/Praktikum_1_PAD2.dir
+C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/leonw/CLionProjects/Praktikum_1_PAD2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
