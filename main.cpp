@@ -22,7 +22,7 @@ int main() {
 
             cout <<"Please insert the inventment rate" <<"\n";
             cin >> irate;
-            irate = 1 + irate / 100;
+            irate = irate / 100;
 
 
 

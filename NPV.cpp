@@ -14,7 +14,7 @@ double NPV::calcNPV() {
 
     for(int i = 0; i < inv.size(); i++){
 
-        calculation = (this->inv.at(i) / pow(1 + this->irate, i+1));
+        calculation = (this->inv.at(i) / pow(1 + this->irate, i));
         // debug: cout << "yep"<<"\n";
         result += calculation;
     }
