@@ -20,7 +20,7 @@ int main() {
             int duration = 0;
             vector<int> inv;
 
-            cout <<"Please insert the inventment rate" <<"\n";
+            cout <<"Please insert the investment rate" <<"\n";
             cin >> irate;
 
             int entry;
