@@ -20,9 +20,10 @@ private:
 
 public:
 
+    NPV();
     NPV(const vector<int> &inv, double irate);
     double calcNPV();
-
+    double fRand(double fMin, double fMax);
 };
 
 

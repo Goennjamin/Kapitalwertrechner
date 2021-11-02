@@ -12,9 +12,9 @@ int main() {
 
     cin >> selection;
 
-    switch(selection){
 
-        case 1:
+
+       if(selection == 1){
 
             double irate = 0;
             int duration = 0;
@@ -22,31 +22,38 @@ int main() {
 
             cout <<"Please insert the inventment rate" <<"\n";
             cin >> irate;
-            irate = irate / 100;
+
+            int entry;
 
 
+            cout <<"Please insert your numbers, press enter after each value, insert 'q' to finish your input"<<"\n";
+            while(cin >> entry){
+                inv.push_back(entry);
+            }
 
-            cout <<"Please tell me how many numbers you want to insert" << "\n";
-            cin >> duration;
-
-            cout <<"Please insert your numbers, press enter after each value";
-            for(int i = 0; i < duration; i++){
+            NPV list1{inv,irate};
+            cout << list1.calcNPV();
+            /*for(int i = 0; i < duration; i++){
 
                 int entry;
                 cin >> entry;
                 inv.push_back(entry);
 
-            }
-                NPV list1{inv,irate};
-                cout << list1.calcNPV();
+            }*/
+
             /*for(int i = 0; i < duration; i++){
 
                 cout << inv.at(i)<<"\n";
 
             }*/
+       }
 
-    }
+       if(selection == 2){
 
+           NPV list;
+
+           cout <<"The calculated NPV is: " << list.calcNPV()<<"\n";
+       }
 
 
 
