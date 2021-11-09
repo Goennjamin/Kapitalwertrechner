@@ -36,11 +36,18 @@ NPV::NPV() {
     this->irate = rate;
 
 
-
+    int invc = 0;
     for(int i = 0; i < 10; i++){
 
         value = rand() & 100001;
-        list.push_back(value);
+
+        if(invc == 0){
+            list.push_back(-value);
+            invc ++;
+        }else{
+            list.push_back(value);
+        }
+
 
     }
     this->inv = list;
