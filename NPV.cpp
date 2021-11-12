@@ -36,7 +36,7 @@ NPV::NPV() {
     this->irate = rate;
 
 
-    int invc = 0;
+    int invc = 0; // counter to make the initial investment negative
     for(int i = 0; i < 10; i++){
 
         value = rand() & 100001;
@@ -66,3 +66,60 @@ double NPV::fRand(double fMin, double fMax) {
     double f = (double)rand() / RAND_MAX;
     return fMin + f * (fMax - fMin);
 }
+
+
+/*
+ *
+ * NPV Calculator online: https://www.angelone.in/npv-present-value-calculator
+ *
+ *  Testcases:
+ *
+ *  1)
+ *  Initial investment: 50000
+ *  Investment rate: 0,04
+ *  Cashflows:
+ *  2500
+ *  1500
+ *  -5000
+ *  2000
+ *  Expected result: -48945
+ *  Result:
+ *  2)
+ *  Initial investment: 250.000
+ *  Investment rate: 0,25
+ *  Cashflows:
+ *  15000
+ *  30000
+ *  -250
+ *  15
+ *  125000
+ *  Expected result: -177962
+ *  Result:
+ *  3)
+ *  Initial investment: 5
+ *  Investment rate: 1
+ *  Cashflows:
+ *  100000
+ *  200000
+ *  -50000
+ *  Expected result: 93745
+ *  Result:
+ *  4)
+ *  Initial investment: 700000
+ *  Investment rate: 0.75
+ *  Cashflows:
+ *  1000000
+ *  Expected result: -128571
+ *  Result:
+ *  5)
+ *  Initial investment: 15
+ *  Investment rate: 0.01
+ *  Cashflows:
+ *  -750000
+ *  -800000
+ *  1.200.000
+ *  Expected result: -362118
+ *  Result:
+ *
+ *
+ */
